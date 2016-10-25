@@ -33,7 +33,7 @@ $("form#id").submit(function() {
   var sendgridjs_html     = "<p>html of email here as a string</p>";
 
   var email = {
-    from    : sendgridjs_to,
+    from    : sendgridjs_from,
     subject : sendgridjs_subject,
     html    : sendgridjs_html
   }
